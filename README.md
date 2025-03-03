@@ -1,4 +1,5 @@
 # Plan
+
 Backend (Spring Boot)
 •	Project Setup & Configurations: 1-2 days
 •	User Authentication & Authorization: 2-3 days
@@ -25,8 +26,10 @@ Final Deployment & Testing
 •	API Testing with Frontend & Admin Panel: 4-5 days
 •	Fixes & Optimizations: 3-4 days
 •	Deployment & Documentation: 3-4 days
+
 Total Estimated Time
 •	Backend (Spring Boot): ~30-40 days
 •	Admin Panel (React.js): ~20-30 days
 •	Final Testing & Deployment: ~10-15 days
+
 Total: ~45-60 days ( assuming 7-8 hours of work daily).
