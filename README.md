@@ -1,37 +1,75 @@
 # Plan
 
-# Project Timeline
+# Project Timeline 
 
-## Backend (Spring Boot)
-- **Project Setup & Configurations**: 1-2 days
-- **User Authentication & Authorization**: 2-3 days
-- **Category & Product APIs**: 2-3 days
-- **Order & Payment (Stripe Integration)**: 4-6 days
-- **Reviews & Ratings APIs**: 2-3 days
-- **Refund & Order History APIs**: 3-4 days
-- **Chat & Contest APIs**: 3-4 days
-- **Stewart API Integration**: 3-4 days
-- **Push Notification Integration**: 3-4 days
-- **Testing & Debugging**: 4-5 days
+## Week 1: Core Backend & Authentication
+### Backend
+- **Set up essential backend services**
+  - Configure Spring Boot project structure.
+  - Implement User Authentication & Authorization (JWT-based).
+  - Create REST API endpoints for Users, Categories, and Products.
+  - Implement Stripe Payment Integration (Basic setup).
 
-## Admin Panel (React.js)
-- **Dashboard & Charts**: 3-4 days
-- **Orders & Refunds Management**: 3-4 days
-- **Product & Category Management**: 2-3 days
-- **Users & Reviews Management**: 3-4 days
-- **Chat & Contest Management**: 3-4 days
-- **Promotions & Discounts Management**: 2-3 days
-- **Invoice System (based on discussion with Juba)**: 2-3 days
-- **Testing & Debugging**: 4-5 days
+### Admin Panel
+- **Admin Panel Setup**
+  - Create the ReactJS Admin Panel project.
+  - Implement Login & Authentication for Admins.
 
-## Final Deployment & Testing
-- **API Testing with Frontend & Admin Panel**: 4-5 days
-- **Fixes & Optimizations**: 3-4 days
-- **Deployment & Documentation**: 3-4 days
+---
 
-## Total Estimated Time
-- **Backend (Spring Boot)**: ~30-40 days
-- **Admin Panel (React.js)**: ~20-30 days
-- **Final Testing & Deployment**: ~10-15 days
+## Week 2: Orders & Reviews System
+### Backend
+- **Order Management System**
+  - Implement Orders API (CRUD operations, status tracking).
+  - Integrate Stewart API (Delivery services).
+  - Implement Ongoing Orders Tracking (for both users and admins).
 
-**Total**: ~45-60 days (assuming 7-8 hours of work daily).
+- **Reviews & Ratings System**
+  - Implement Reviews API (Submit, Read, Reply to reviews).
+  - Implement Rating System (1-5 stars).
+  - Create endpoints for Review Moderation & Admin Responses.
+
+### Admin Panel
+- Display Orders & Order Status.
+- Display Users & Reviews Management.
+
+---
+
+## Week 3: Sales, Refunds & Reporting
+### Backend
+- **Sales & Refunds API**
+  - Implement Sales Data API (Gross Sales, Net Sales, Order Volume, etc.).
+  - Implement Refund System API (Request, Approval/Rejection, Processing).
+
+- **Charts & Reports**
+  - Develop APIs for Sales Charts, Review Analytics, Best-Selling Products, etc.
+  - Implement API endpoints for Order History & Refund Details.
+
+### Admin Panel
+- Display Sales Summary, Refunds, and Reports.
+- Implement Charts for Admin Dashboard.
+
+---
+
+## Week 4: Push Notifications, Promotions & Final Testing
+### Backend
+- **Push Notifications**
+  - Implement Spring Boot FCM (Firebase Cloud Messaging).
+  - Enable Push Notifications for Orders & Promotions.
+
+- **Promotions API**
+  - Implement Promotion System API (Discounts, Campaigns).
+  - Add support for Different Promotion Types.
+
+- **Final Testing & Deployment**
+  - Test all APIs (Unit & Integration Tests).
+  - Optimize Performance & Security.
+  - Deploy Backend & Admin Panel.
+
+---
+
+## Week 5: Final Deliverables
+- Fully Functional Backend API (Spring Boot).
+- Admin Panel (ReactJS) for Managing Orders, Sales, Refunds, Reviews, & Promotions.
+- Stripe Payment, Push Notifications, & Delivery API Integration.
+- Full Documentation & Testing.
